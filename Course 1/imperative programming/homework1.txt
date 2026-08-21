@@ -1,0 +1,6 @@
+1. Two fundamental operations are adding two numbers and comparing two values.
+    Two compound operations are addition loops and sorting lists.
+
+2. A compiler compiles user written code into machine code.
+
+3. It keeps constant values constant, preventing them from being changed.
