@@ -8,4 +8,4 @@ lst [2] *= 5
 
 print(lst[-1])
 print(len(lst))
-# print(lst[4]) 
+# print(lst[4])
