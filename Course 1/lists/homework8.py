@@ -5,15 +5,15 @@ while (word := input("Enter a word: ")) != "!":
 
 #Stage 2
 indcies = []
-while (index := int(input("Enter an index: "))) != -1:
+while (index := int(input("Enter an index: "))) >= 0:
     indcies.append(index)
 
-results = []
 #Stage 3
-for i in indcies:
-    if i < len(words):
+results = []
+for i in range(len(words)):
+    if i not in indcies:
         results.append(words[i])
-        #Wallahi don't try to use .pop(), it fucks up the indexing after the first one
+        # wallahi dont use .pop() cuz it messed up everthing
 
 print("original: ", words)
 print("indcies: ", indcies)
