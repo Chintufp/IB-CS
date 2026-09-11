@@ -1,14 +1,16 @@
 #1
+lst = []
 def iterate(f,x,n):
     if n == 0:
-        return x
+        return lst
     else:
+        lst.append(f(x))
         return iterate(f, f(x), n-1)
 
 def f(x):
     return 0.5 * (x + 2/x)
 
-# print(iterate(f, 1, 6))
+print(iterate(f, 1, 6))
 
 #2
 
