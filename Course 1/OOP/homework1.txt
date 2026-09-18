@@ -1,0 +1,20 @@
+1. 
+An object is an instance of class. Class is a blueprint of a datatype, while an object is an instance created from that blueprint
+
+2. 
+ Aggregation - Train has passengers inisde
+ Dependency - Passengers use a train to move around
+
+ Aggregation - Courses contain students
+ Dependency - Students use courses for credits
+
+ Inheritance - A table is a furniture
+ Aggregation - Furniture contains tables
+
+ Inheritance - a child inherits genes from their parents
+ Aggregation - a parent has a child
+
+ Inheritance - a book is a piece of literature
+ Aggregation - a book contains literature
+
+
