@@ -3,4 +3,4 @@ Storage contains products
 Cold prodcut is a subclass of product.
 Cold product is dependant on cold Storage
 Cold storage is a subclass of storage
-Freezer and fridge are subclasses of storage
+Freezer and fridge are subclasses of cold storage

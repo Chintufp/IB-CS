@@ -1,0 +1,18 @@
+__init__(...,x,...) => variable type is a parameter
+self.x  => variable type is an instance variable
+
+origin ():
+    x => local variable
+
+x = origin() => global variable
+
+
+
+2. There exists no static variable
+
+3. First one refers to the class    
+    second one refers to the constructure of the class
+
+
+4.1 called at x = Point(0,0)
+4.2 called at print(x)
