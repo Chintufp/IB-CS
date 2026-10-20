@@ -1,0 +1,2 @@
+Because array's store its elements side by side in memory.
+So computer can find da address of the element by knowing the starting address, index, and size of the elements (all the elements got the same size)
